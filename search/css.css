@@ -1,0 +1,313 @@
+@charset "UTF-8";
+html{
+    width: 100%;
+    font-size: 151.9px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: #f9f9f9;
+}
+.text{
+    width: 100%;
+    text-align: center;
+}
+input{
+    width: calc(650rem/72);
+    height: calc(50rem/72);
+    text-align: center;
+    display: inline-block;
+    margin: calc(30rem/72);
+    border: 1px solid #e5e5e5;
+    outline: 0px;
+    color: #e4e4e4;
+    font-size: calc(24rem/72);
+    box-sizing: border-box;
+}
+.return{
+    display: inline-block;
+    width: 100%;
+    height: calc(80rem/72);
+    background-color: #41c2fc;
+    line-height: calc(80rem/72);
+    text-indent: calc(50rem/72);
+    font-size: calc(22rem/72);
+    color: #fff;
+    position: relative;
+}
+.return span{
+    display: block;
+    width: calc(17rem/72);
+    height: calc(39rem/72);
+    position: absolute;
+    background: url("image/jyw-lt_54.png") no-repeat;
+    top: calc(15rem/72);
+    left: calc(18rem/72);
+}
+.collection{
+    padding: 0 calc(26rem/72);
+}
+.collection h3{
+    margin: calc(30rem/72) 0;
+    font-size: calc(28rem/72);
+    color: #413d3e;
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+.collection .team li{
+    width: calc(200rem/72);
+    height: calc(200rem/72);
+    background: #fff;
+    border-radius: calc(9rem/72);
+    margin-right: calc(34rem/72);
+    text-align: center;
+}
+.collection .team li a img{
+    margin-top: calc(42rem/72);
+    width: calc(66rem/72);
+    height: calc(66rem/72);
+}
+.collection .team li  p{
+    margin-top: calc(29rem/72);
+    font-size: calc(20rem/72);
+    color: #3f3d3e;
+}
+.collection .team li:last-of-type{
+    margin-right: 0;
+}
+.collection .line{
+    width: 100%;
+    height: calc(1rem/72);
+    background-color: #edecec;
+    margin-top: calc(60rem/72);
+}
+.collection .hot li{
+    width: calc(150rem/72);
+    height: calc(150rem/72);
+    background: #fff;
+    border-radius: calc(9rem/72);
+    margin-right: calc(22rem/72);
+    text-align: center;
+    box-sizing: border-box;
+}
+.collection .hot li img{
+    width: calc(54rem/72);
+    height: calc(54rem/72);
+    margin-top: calc(30rem/72);
+}
+.collection .hot li  p{
+    margin-top: calc(24rem/72);
+    font-size: calc(20rem/72);
+    color: #413d3e;
+}
+.collection .hot li:last-of-type{
+    margin-right: 0;
+}
+.collection .canada h3{
+    width: calc(670rem/72);
+    height: calc(98rem/72);
+    background-color: #fff4f4;
+    line-height: calc(98rem/72);
+    text-align: center;
+    position: relative;
+}
+.collection .canada p{
+    width: calc(688rem/72);
+}
+.collection .canada h3 span{
+    display: block;
+    width: calc(86rem/72);
+    height: calc(45rem/72);
+    position: absolute;
+    background: url("image/jyw-lt_44.jpg") no-repeat;
+    top: calc(27rem/72);
+    left: calc(170rem/72);
+}
+.collection .canada div{
+    padding: calc(40rem/72) calc(8rem/72);
+    background-color: #fff;
+}
+.collection .canada a{
+    width: calc(308rem/72);
+    height: calc(60rem/72);
+    display: inline-block;
+    /*padding-top: calc(17rem/72);*/
+    border: 1px solid #cbcbcb;
+    color: #a8a8a8;
+    line-height: calc(60rem/72);
+    text-align: center;
+    margin-top: calc(50rem/72);
+    margin-right: calc(25rem/72);
+    box-sizing: border-box;
+    border-radius: calc(10rem/72);
+}
+.collection .canada a:nth-of-type(even){
+    margin-right: 0;
+}
+.collection .canada a:hover{
+    background-color: #6abff8;
+    color: #fff;
+}
+.collection .USA h3{
+    width: calc(670rem/72);
+    height: calc(98rem/72);
+    line-height: calc(98rem/72);
+    text-align: center;
+    position: relative;
+    background-color: #f3f4fa;
+}
+.collection .USA h3 span{
+    display: block;
+    width: calc(86rem/72);
+    height: calc(45rem/72);
+    position: absolute;
+    background: url("image/jyw-lt_45.jpg") no-repeat;
+    top: calc(27rem/72);
+    left: calc(170rem/72);
+}
+.collection .USA div{
+    padding: calc(40rem/72) calc(21rem/72);
+    background-color: #fff;
+}
+.collection .USA a{
+    width: calc(290rem/72);
+    height: calc(60rem/72);
+    display: inline-block;
+    /*padding-top: calc(17rem/72);*/
+    border: 1px solid #cbcbcb;
+    color: #a8a8a8;
+    line-height: calc(60rem/72);
+    text-align: center;
+    margin-top: calc(50rem/72);
+    margin-right: calc(25rem/72);
+    box-sizing: border-box;
+    border-radius: calc(10rem/72);
+}
+.collection .USA a:hover{
+    background-color: #6abff8;
+    color: #fff;
+}
+.collection .USA a:nth-of-type(even){
+    margin-right: 0;
+}
+.collection .Nz h3{
+    width: calc(670rem/72);
+    height: calc(98rem/72);
+    line-height: calc(98rem/72);
+    text-align: center;
+    position: relative;
+    background-color: #f3f4fa;
+}
+.collection .Nz h3 span{
+    display: block;
+    width: calc(86rem/72);
+    height: calc(45rem/72);
+    position: absolute;
+    background: url("image/jyw-lt_46.jpg") no-repeat;
+    top: calc(27rem/72);
+    left: calc(170rem/72);
+}
+.collection .Nz div{
+    padding: calc(40rem/72) calc(21rem/72);
+    background-color: #fff;
+}
+.collection .Nz a{
+    width: calc(290rem/72);
+    height: calc(60rem/72);
+    display: inline-block;
+    /*padding-top: calc(17rem/72);*/
+    border: 1px solid #cbcbcb;
+    color: #a8a8a8;
+    line-height: calc(60rem/72);
+    text-align: center;
+    margin-top: calc(50rem/72);
+    margin-right: calc(25rem/72);
+    box-sizing: border-box;
+    border-radius: calc(10rem/72);
+}
+.collection .Nz a:hover{
+    background-color: #6abff8;
+    color: #fff;
+}
+.collection .Nz a:nth-of-type(even){
+    margin-right: 0;
+}
+
+.collection .Australia h3{
+    width: calc(670rem/72);
+    height: calc(98rem/72);
+    line-height: calc(98rem/72);
+    text-align: center;
+    position: relative;
+    background-color: #f3f4fa;
+}
+.collection .Australia h3 span{
+    display: block;
+    width: calc(86rem/72);
+    height: calc(45rem/72);
+    position: absolute;
+    background: url("image/jyw-lt_47.jpg") no-repeat;
+    top: calc(27rem/72);
+    left: calc(157rem/72);
+}
+.collection .Australia div{
+    padding: calc(40rem/72) calc(21rem/72);
+    background-color: #fff;
+}
+.collection .Australia a{
+    width: calc(290rem/72);
+    height: calc(60rem/72);
+    display: inline-block;
+    /*padding-top: calc(17rem/72);*/
+    border: 1px solid #cbcbcb;
+    color: #a8a8a8;
+    line-height: calc(60rem/72);
+    text-align: center;
+    margin-top: calc(50rem/72);
+    margin-right: calc(25rem/72);
+    border-radius: calc(10rem/72);
+}
+.collection .Australia a:hover{
+    background-color: #6abff8;
+    color: #fff;
+}
+.collection .Australia a:nth-of-type(even){
+    margin-right: 0;
+}
+.collection .Europe h3{
+    width: calc(670rem/72);
+    height: calc(98rem/72);
+    line-height: calc(98rem/72);
+    text-align: center;
+    position: relative;
+    background-color: #fdf3e9;
+}
+.collection .Europe h3 span{
+    display: block;
+    width: calc(86rem/72);
+    height: calc(45rem/72);
+    position: absolute;
+    background: url("image/jyw-lt_48.jpg") no-repeat;
+    top: calc(27rem/72);
+    left: calc(170rem/72);
+}
+.collection .Europe div{
+    padding: calc(40rem/72) calc(21rem/72);
+    background-color: #fff;
+}
+.collection .Europe a{
+    width: calc(290rem/72);
+    height: calc(60rem/72);
+    display: inline-block;
+    /*padding-top: calc(17rem/72);*/
+    border: 1px solid #cbcbcb;
+    color: #a8a8a8;
+    line-height: calc(60rem/72);
+    text-align: center;
+    margin-top: calc(50rem/72);
+    margin-right: calc(25rem/72);
+    border-radius: calc(10rem/72);
+}
+.collection .Europe a:hover{
+    background-color: #6abff8;
+    color: #fff;
+}
+.collection .Europe a:nth-of-type(even){
+    margin-right: 0;
+}

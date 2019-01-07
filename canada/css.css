@@ -1,0 +1,58 @@
+@charset "UTF-8";
+html{
+    width: 100%;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: #f9f9f9;
+}
+.canada h3{
+    width: 100%;
+    height: calc(98rem/72);
+    line-height: calc(98rem/72);
+    /*background-color: ;*/
+    position: relative;
+    color: #fff;
+    font-size: calc(38rem/72);
+    text-align: center;
+    background: #41c2fc url(image/jyw-lt_55.png) no-repeat left calc(464rem/72) center;
+    background-size: calc(40rem/72) calc(30rem/72);
+    -webkit-background-size: calc(40rem/72) calc(30rem/72);
+    -webkit-background: #41c2fc url(image/jyw-lt_55.png) no-repeat left calc(464rem/72) center;
+}
+.canada h3 a{
+    width: 76px;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    /*top: calc(5rem/72);*/
+    left: calc(25rem/72);
+    background: url("image/jyw-lt_54.png") no-repeat 0;
+}
+.canada div{
+    padding: calc(42rem/72) calc(58rem/72);
+    background-color: #fff;
+}
+.canada div h4{
+    font-size: calc(28rem/72);
+}
+.canada div a{
+    width: calc(280rem/72);
+    height: calc(60rem/72);
+    display: inline-block;
+    /*padding-top: calc(17rem/72);*/
+    border: 1px solid #cbcbcb;
+    line-height: calc(60rem/72);
+    text-align: center;
+    margin-top: calc(50rem/72);
+    margin-right: calc(25rem/72);
+    border-radius: 10px;
+    font-size: calc(21rem/72);
+    box-sizing: border-box;
+    color: #828081;
+}
+.canada a:nth-of-type(even){
+    margin-right: 0;
+}
+.canada a:hover{
+    background-color: #6abff8;
+    color: #fff;
+}
